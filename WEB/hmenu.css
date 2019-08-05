@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.header{
+	background: yellow;
+	background-size: 100%;
+	width: 2000px;
+	height: 200px;
+	margin-top: -20px;
+	margin-left: -10px;
+	position: relative;
+	
+}
+
+.sr{
+	width:30px;
+	height: 20px;
+	position: absolute;
+	top: 91px;
+	left: 495px;
+	
+	
+}
+
+
+.logo{	
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	
+}
+
+.s{
+	position: absolute;
+	top: 90px;
+	left: 530px;
+	width: 250px;
+}
+
+.travel{
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	top: 10px;
+	left: 1100px;
+}
+
+h1{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 45px;
+	color: rgba(243,4,130,1.00);
+	position: absolute;
+	left: 520px;
+	top: 5px;	
+	
+	
+}
+
+h2{
+	position: absolute;
+	top: 110px;
+	left: 420px;
+	color: royalblue;
+	
+	
+}
+
+.nav{
+	background:  url(../IMAGES/22.jpg)no-repeat;
+	background-size: 100%;
+	height: 550px;
+	width: 130%;
+	background-position: center center;
+	margin: 0px;
+	margin-left: -10px;
+	margin-top: -10px;
+	box-shadow: 0 0 1000px white;
+	
+	 
+}
+
+.hmenu{
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px orange;
+	list-style:  none;
+	background-color: orange;
+	margin: 0px;
+	margin-left: -10px;
+	opacity: 0.9;
+	
+	
+		
+}
+
+ul.hmenu>li>a{
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding-left: 180px;
+	padding-top: 5px;
+	color: white;
+	
+
+}
+
+ul.hmenu>li>a:hover{
+	font-weight: bolder;
+	color: blue;
+}
+
+ul.hmenu>li{
+	display: inline-block;
+	margin: 0 5px;
+	position: relative;
+}
+
+ul.hmenu>li:hover>.vmenu{
+	display: block;
+	
+}
+
+.vmenu{
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 5px orange;
+	list-style:  none;
+	position: absolute;
+	display: none;
+	margin-left: 150px;
+	background-color: aliceblue;
+	
+}
+
+.vmenu>li>a{
+	display: block;
+	line-height:  30px;
+	border-bottom: 1px dotted orange;
+	font-variant: small-caps;
+	padding-left: 25px;
+	background: url(../IMAGES/2.gif) no-repeat left center;
+	background-size: 30px;
+	text-decoration: none;
+	color: black;
+	font-weight: 500px;
+	
+		
+	
+}
+
+.vmenu>li>a:hover{
+	font-weight: bolder;
+	color: red;
+	background: url(../IMAGES/1.gif)no-repeat left center;
+	background-size: 30px;
+}
+
+.article{
+	width: 100%;
+	height: 500px;
+	
+	margin-left: -10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.video{
+	position: absolute;
+	top: 10px;
+	left: 330px;
+	
+	
+}
+
+#hi{
+	position: absolute;
+	left: 1050px;
+	
+	
+}
+
+.Column {
+	width: 25%;
+	float: left;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px dashed blue;
+	
+}
+
+.Product {
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px grey;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+.Product:hover {
+	box-shadow: 0px 0px 7px blue;
+}
+
+.Product .Name {
+	font-size: larger;
+	font-variant: small-caps;
+	color: blue;
+}
+
+.Product img {
+	max-width: 95%;
+}
+
+.Product .Price {
+	color: red;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.Product .Price del {
+	color: grey;
+}
+
+
+.gt{
+	position: relative;
+	width: 100%;
+	height: 1400px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+
+.sky{
+	width: 90%;
+	height: 100px;
+	position: absolute;
+	left: 80px;
+}
+
+footer{
+	margin-top: 50px;
+	
+}
+
+body{
+	background: yellow;
+	
+	
+	
+}
+
+.header>h1>a{
+	text-decoration: none;
+	color: rgba(243,4,130,1.00);
+}
+
